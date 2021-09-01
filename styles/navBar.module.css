@@ -1,0 +1,17 @@
+.head {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 6vh;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 99;
+    align-items: center;
+}
+
+.corpo {
+    margin-top: 70px;
+}
