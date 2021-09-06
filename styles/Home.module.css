@@ -1,4 +1,4 @@
-.noss{
+.noss {
   background-image: url('../images/IMG-20210807-WA0005.jpg');
   background-position: center;
   background-size: cover;
@@ -12,11 +12,23 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
 }
-.page{
+
+.page {
   background-color: white;
   height: 100vh;
 }
-.dav{
+
+.dav {
   background: white;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer{
+  background: black;
+  height: 150px;
+  color: white;
+  display: grid;
+  font-size: 20px;
 }

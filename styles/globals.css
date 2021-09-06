@@ -1,9 +1,7 @@
-html,
-body {
+html, body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +11,38 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.jobContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+  width: 250px;
+  height: 390px;
+  margin: 20px;
+}
+.orga{
+  display: flex;
+  justify-content: space-around;
+
+}
+.card_txt{
+  margin-left: 4px;
+  justify-items: start;
+}
+.Linkado{
+  cursor: pointer;
+}
+.footer{
+  background: black;
+  height: 150px;
+  color: white;
+  display: grid;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
 }
