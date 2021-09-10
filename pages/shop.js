@@ -1,20 +1,10 @@
 import NavBar from '../components/navBar'
-import Card from '../components/Card/Card'
+import SideNav from '../components/SideNav'
 
 export default function Shop() {
     return (
         <div>
-            <NavBar></NavBar>
-            <Card></Card>
-            <Card>
-                <Card>
-                    <Card>
-                        <Card>
-                            <Card></Card>
-                        </Card>
-                    </Card>
-                </Card>
-            </Card>
+            <SideNav />
         </div>
     )
 }
