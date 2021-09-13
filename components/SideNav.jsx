@@ -14,7 +14,7 @@ export default function SideNav() {
                     <a href="#">Contact</a>
                 </div>
 
-                <h2>Animated Sidenav Example</h2>
+                <h2><Link>Animated Sidenav Example</Link></h2>
                 <p>Click on the element below to open the side navigation menu.</p>
                 <span className="zap" onclick={openNav()}>&#9776; open</span>
 
